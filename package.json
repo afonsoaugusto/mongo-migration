@@ -1,0 +1,19 @@
+{
+  "name": "Migration_Node_MongoDb",
+  "version": "1.0.0",
+  "description": "Data Migration with Node.js on MongoDB running Docker",
+  "author": "Afonso Rodrigues <afonsoaugustoventura@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afonsoaugusto/mongo-migration.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "migrate-mongo": "^6.0.1"
+  }
+}
